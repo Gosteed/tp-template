@@ -1,5 +1,5 @@
 nav {
-  background-color: #6d6d6d;
+  background-color: var(--bg-surface);
   width: 100%;
   color: white;
   padding: 1rem;

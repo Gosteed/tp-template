@@ -6,6 +6,7 @@ import './styles/navbar.css'
 import {  useEffect, useState } from "react"
 import { GoogleGenAI } from "@google/genai";
 import SobreNosotros from "./components/SobreNosotros"
+import Unidad1 from "./unidades/Unidad1";
 import Respuesta from "./components/Respuesta"
 import PaginaNo from "./components/PaginaNo"
 
@@ -48,6 +49,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobreNosotros" element={<SobreNosotros />} />
+          <Route path="/unidad1" element={<Unidad1 />} />
           <Route path="/respuesta" element={<Respuesta content={content} />} />
           <Route path="*" element={<PaginaNo />} />
         </Routes>
